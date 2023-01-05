@@ -1,6 +1,6 @@
 {
   "name": "mocha-json-output-reporter",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "mocha json reporter output file",
   "main": "reporter.js",
   "scripts": {
@@ -9,15 +9,15 @@
   "author": "vchin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ichirkin/mocha-json-output-reporter"
+    "url": "https://github.com/giuliohome/mocha-json-output-reporter"
   },
   "license": "MIT",
   "dependencies": {
-    "mocha": "^7.2.0",
-    "moment": "^2.21.0"
+    "mocha": "*",
+    "moment": "*"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-google": "^0.9.1"
+    "eslint": "*",
+    "eslint-config-google": "*"
   }
 }

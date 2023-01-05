@@ -91,7 +91,9 @@ function clean(test) {
     file: test.file,
     duration: test.duration,
     currentRetry: test.currentRetry(),
-    err: cleanCycles(err)
+    err: cleanCycles(err),
+    attachments: test.attachments,
+    myfield: test.myfield
   };
 }
 
